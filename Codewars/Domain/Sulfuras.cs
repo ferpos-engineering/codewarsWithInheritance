@@ -31,7 +31,7 @@
             };
         }
 
-        protected override void EvaluateRule()
+        protected override void EvaluateDegradation()
         {
             // ignore.
         }

@@ -7,9 +7,9 @@
         {
         }
 
-        protected override void EvaluateRule()
+        protected override void EvaluateDegradation()
         {
-            base.EvaluateRule();
+            base.EvaluateDegradation();
 
             if (this.Quality == null)
             {

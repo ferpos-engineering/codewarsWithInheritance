@@ -27,11 +27,11 @@ public class MyItem
         }
 
         this.SellIn--;
-        this.EvaluateRule();
+        this.EvaluateDegradation();
         this.Quality.Value -= this.Quality.Degradation;
     }
 
-    protected virtual void EvaluateRule()
+    protected virtual void EvaluateDegradation()
     {
         if (this.SellIn < 0 && this.Quality != null)
         {

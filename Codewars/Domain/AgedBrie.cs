@@ -11,7 +11,7 @@
             }
         }
 
-        protected override void EvaluateRule()
+        protected override void EvaluateDegradation()
         {
             if (this.Quality == null)
             {
