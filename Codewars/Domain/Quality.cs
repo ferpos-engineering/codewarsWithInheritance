@@ -33,17 +33,6 @@ public class Quality
 
         Value = value;
     }
-    
-    public void Update()
-    {
-        int qualityValue = Value - this.Degradation;
-        if (qualityValue < 0)
-        {
-            qualityValue = 0;
-        }
-
-        this.Value = qualityValue;
-    }
 
     public override bool Equals(object? obj)
     {
